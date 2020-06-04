@@ -9,7 +9,8 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |suite, name|
-     if suite_a && name[0] == "A"
+    if suite_a[name[0]] == "A"
      name
+    end
   end
 end
